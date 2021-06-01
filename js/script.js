@@ -91,7 +91,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Builds HTML for the home page based on categories array
   // returned from the server.
-  function buildAndShowHomeHTML(categories) {
+  function buildAndShowHomeHTML categories) {
 
     // Load home snippet page
     $ajaxUtils.sendGetRequest(
